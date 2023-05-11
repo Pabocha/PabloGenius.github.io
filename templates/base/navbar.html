@@ -1,0 +1,24 @@
+<nav id="navbar" class="navbar">
+  <ul>
+    <li><a href="/" class="active">Accueil</a></li>
+    <li><a href="{% url 'about'%}">A propos</a></li>
+    <li class="dropdown">
+      <a href="#"
+        ><span>Services</span>
+        <i class="bi bi-chevron-down dropdown-indicator"></i
+      ></a>
+      <ul>
+        <li><a href="#">Entraide</a></li>
+        <li><a href="#">Ristourne</a></li>
+        <li><a href="#">Investissement</a></li>
+      </ul>
+    </li>
+    <li><a href="projects.html">Projets</a></li>
+    <li><a href="blog.html">Blog</a></li>
+
+    <li><a href="{% url 'register'%}">S'inscrire</a></li>
+
+    <li><a href="{% url 'contact'%}">Contact</a></li>
+  </ul>
+</nav>
+<!-- .navbar -->
